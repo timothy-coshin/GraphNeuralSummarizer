@@ -3,20 +3,25 @@
 # Graph Neural Summarizer (GNS)
 **Addressing Information Bottlenecks in Graph-Augmented Large Language Models**
 
-[![status](https://img.shields.io/badge/status-under%20review-yellow?style=for-the-badge)](https://www.sciencedirect.com/journal/information-fusion)
-<img alt="Python" src="https://img.shields.io/badge/python-3.10%2B-3776AB?logo=python&logoColor=white&style=for-the-badge">
-<img alt="PyTorch" src="https://img.shields.io/badge/PyTorch-2.x-EE4C2C?logo=pytorch&logoColor=white&style=for-the-badge">
+
+[![status](https://img.shields.io/badge/status-under%20review-blue.svg)](https://www.sciencedirect.com/journal/information-fusion)
 
 </div>
 
 > This repository contains the implementation for the manuscript **“Addressing Information Bottlenecks in Graph-Augmented Large Language Models via Graph Neural Summarization (GNS)”**, submitted to [Information Fusion](https://www.sciencedirect.com/journal/information-fusion).
+
+
+---
+
+## Code Release
+- Code release is tied to the peer-review timeline. Interfaces are provided for easy adoption once public.
 
 ---
 
 ## ✨ At a Glance
 - **Problem.** Graph-level prompting often compresses all node embeddings into a **single vector**, causing severe information loss.
 - **Idea.** **GNS** introduces **query-aware multi-vector summarization** with a three-stage pipeline (**GNN_query → GNN_node → GNN_pool**) to preserve structural granularity.
-- **Results.** On **ExplaGraphs** (commonsense QA), **SceneGraphs** (scene understanding), and **WebQSP** (KGQA), GNS shows strong performance and surpasses prior graph-prompting baselines.
+- **Results.** On GraphQA include ExplaGraphs (commonsense QA), SceneGraphs (scene understanding), and WebQSP (KGQA), GNS shows strong performance and surpasses prior graph-prompting baselines.
 
 ---
 
@@ -24,7 +29,6 @@
 - [Abstract](#abstract)
 - [Key Contributions](#key-contributions)
 - [Authors & Affiliation](#authors--affiliation)
-- [Quick Start](#quick-start)
 
 ---
 
@@ -46,7 +50,3 @@
 - **Wooju Kim**, Ph.D. (✉️ [wkim@yonsei.ac.kr](mailto:wkim@yonsei.ac.kr))  
 **Department of Industrial Engineering, Yonsei University**, Seoul, Republic of Korea
 
----
-
-## Code Release
-- Code release is tied to the peer-review timeline. Interfaces are provided for easy adoption once public.
