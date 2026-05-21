@@ -8,8 +8,8 @@ def csv_list(string):
 def parse_args_llama():
     parser = argparse.ArgumentParser(description="G-Retriever")
 
-    parser.add_argument("--model_name", type=str, default='graph_llm')
-    parser.add_argument("--project", type=str, default="project_g_retriever")
+    parser.add_argument("--model_name", type=str, default='gns_llm')
+    parser.add_argument("--project", type=str, default="project_gns_llm")
     parser.add_argument("--seed", type=int, default=0)
 
     parser.add_argument("--dataset", type=str, default='expla_graphs')
